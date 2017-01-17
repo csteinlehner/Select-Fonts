@@ -1,0 +1,23 @@
+{
+  "name" : "Select Fonts",
+  "description" : "Select Fonts",
+  "author" : "Christoph Steinlehner",
+  "authorEmail" : "christoph@csteinlehner.com",
+  "homepage": "",
+  "version" : "1.0",
+  "identifier" : "com.csteinlehner.sketch.fontselect",
+  "commands" : [
+    {
+      "name" : "Select same font",
+      "identifier" : "fontselect",
+      "shortcut" : "",
+      "script" : "selectSameFont.js"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "fontselect"
+    ],
+    "title" : "Font Select"
+  }
+}
